@@ -1,0 +1,348 @@
+body{
+    font-family: 'Roboto',sans-serif;
+}
+
+.carousel-indicators {
+    list-style: none; /* Remove a estilização padrão dos marcadores */
+}
+
+.row{
+    margin:0;
+}
+.container{
+    padding:70px 0;   
+}
+p,li{
+    color: #444;
+    font-size:12px; 
+    font-weight: bold;
+}
+/* Barra de Navegação */
+header, .navbar{
+background-color: #353D41;
+
+}
+#nav-container{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo{
+    width: 75px;
+}
+
+.navbar-brand{
+    padding: 0;
+    color: #fff;
+}
+.navbar-brand:hover{
+    color: #fff;
+}
+#navbar-links a{
+    color:#fff;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 1rem .8rem;
+}
+
+.nav-item.active {
+    border-bottom: 3px solid #FFF;
+  }
+/* Slider */
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+div.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+#mainSlider .carousel-inner, mainSlider .carousel-item{
+    height: 100vh;
+    margin: 0;
+}
+
+#mainSlider .carousel-caption{
+    top:30%;
+}
+
+#mainSlider .carousel-caption h2{
+    font-size: 50px;
+    margin-bottom: 30px;
+   color:#e6514e;
+}
+
+#mainSlider .carousel-caption p{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 100px;
+    color: #000000;
+    
+}
+.main-btn {
+    background-color: #65DAF9;
+    color: #FFF;
+    text-transform: uppercase;
+    width: 200px;
+    height: 60px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 3px solid transparent;
+    transition: .5s;
+  }
+
+.main-btn:hover{
+    text-decoration: none;
+    color: #fff;
+    background-color: transparent;
+    border-color: #65DAF9;
+}
+
+.carousel-indicators .active {
+    background-color: #65DAF9;
+  }
+
+/* Sobre Mim */
+
+#about-area{
+    background-color: #f0dace;
+}
+.main-title{
+    color: #822326df;
+    margin: 0 0 65px 0;
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+}
+.main-title::after {
+    content: "";
+    border-top: 2px solid #D29D75;
+    width: 30%;
+    position: absolute;
+    top: 56px;
+    right: 35%;
+}
+
+.about-title{
+    font-size: 17px;
+    color: #a06735;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#about-list{
+    list-style: none;
+    padding-left: 0;
+    
+}
+
+#about-list li{
+    line-height: 30px;
+    margin-top: -8px;
+}
+
+#about-list i{
+    color: #f60202;
+    margin-right: 15px;
+}
+/*Ainda nao sei*/
+
+.service-box{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.service-box i {
+    font-size:36px;
+    margin-bottom: 20px;
+    color: #0f0f0f;
+}
+
+.service-box h4{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.service-box:hover > i, .service-box:hover > h4{
+color: #D29D75;
+}
+
+
+/* Dados */
+
+.circle-box div{
+    padding: 0 40px;
+}
+
+.progressbar-text{
+    font-weight: bold;
+    font-size: 32px;
+}
+
+#data-area p {
+    color: #f68383;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Skills */
+
+.skills-background {
+    background-color: #EDEEF1; /* cor de fundo mais escura */
+}
+
+.card-body{
+    text-align: center;
+}
+.card {
+    height: 100%; /* Defina a altura desejada para os cards */
+}
+
+
+/* Me contrate */
+
+#apply-area {
+    height: 500px;
+  }
+  
+  #apply-area .container-fluid, #apply-area .row {
+    height: 100%;
+  }
+  
+  #apply-area .apply-box {
+    padding: 90px 50px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  #company-img {
+    background-image: url('../img/empresa.jpg');
+    background-size: cover;
+    height: 100%;
+  }
+  
+  #pattern-img h4, #pattern-img p {
+    color: #f9c301;
+  }
+  
+  #pattern-img h4 {
+    margin-top: 8%;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  
+  #pattern-img p {
+    margin-bottom: 20px;
+  }
+  
+  #apply-btn {
+    display: block;
+    height: auto;
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    background-color: transparent;
+    border-color: #FFF;
+  }
+  
+  #apply-btn:hover {
+    border-color: #65DAF9;
+    background-color: #65DAF9;
+  }
+
+
+  /* Portfólio */ 
+
+  #portfolio-area {
+    background-color: #EDEEF1;  
+}
+
+  .project-box{
+    margin-bottom: 30px;
+  }
+  .project-box img {
+    width: 100%;
+    height: 250px; /* Defina a altura desejada aqui */
+     /* Isso garante que a imagem cubra todo o espaço especificado */
+}
+  #filter-btn-box{
+    margin-bottom: 50px;
+    text-align: center;
+  
+  }
+
+  #portfolio-area .filter-btn {
+    color: #444;
+    border: 1px solid #444;
+    background-color: transparent;
+    text-transform: none;
+    margin: 0 15px;
+    min-width: 100px;
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    padding:  0 20px;
+   
+  }
+  
+  #portfolio-area .filter-btn.active, #portfolio-area .filter-btn:hover  {
+    color: #FFF;
+    background-color: #65DAF9;
+    border-color: #65DAF9;
+    
+
+  }
+  
+  /* contact */
+  .contact-box {
+    border: none;
+    margin-bottom: 0;
+  }
+  /* Footer */
+footer {
+    background-color: #F0DACE;
+    color: #fff;
+    padding: 20px 0; /* Reduzindo o preenchimento vertical */
+}
+
+#contact-area {
+    padding: 10px 0; /* Reduzindo o preenchimento vertical */
+}
+
+#copy-area {
+    background-color: #2B3135;
+    padding: 5px 0; /* Reduzindo o preenchimento vertical */
+}
+#copy-area .container {
+    padding-top: 10px;
+    padding-bottom: 10px; /* Reduzindo o preenchimento vertical */
+}
+.contact-box {
+   
+    margin-bottom: 15px; /* Reduzindo a margem inferior */
+}
+
+.contact-box i {
+    font-size: 24px;
+    margin-bottom: 5px; /* Reduzindo a margem inferior */
+    color: #ff0000;
+}
+
+.contact-tile {
+    font-weight: bold;
+    color: #000000;
+}
+
+#msg-box {
+
+    margin-top: 15px; /* Reduzindo a margem superior */
+}
+
+/* Estilização dos links no footer */
+footer a {
+    color: #e8f965;
+}
+
