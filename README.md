@@ -33,7 +33,7 @@ Contribuições são bem-vindas! Sinta-se à vontade para enviar pull requests o
 
 ## Autor
 
-Victor - [bboywarrio](https://github.com/bboywarrio)
+Victor Miguel da silva - [bboywarrio](https://github.com/bboywarrio)(https://www.linkedin.com/in/victor-miguel-da-silva-28923b242/)
 
 ## Licença
 
