@@ -35,6 +35,4 @@ Contribuições são bem-vindas! Sinta-se à vontade para enviar pull requests o
 
 Victor Miguel da silva - [bboywarrio](https://github.com/bboywarrio)(https://www.linkedin.com/in/victor-miguel-da-silva-28923b242/)
 
-## Licença
 
-Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
